@@ -1,5 +1,6 @@
 import './App.css'
 import Counter from './counter';
+import Users from './fatch';
 
 function App() {
   function hendelClick(){
@@ -16,6 +17,7 @@ function App() {
     <>
       <h3>React core Concept 3</h3>
       <Counter></Counter>
+      <Users></Users>
       <button onClick={hendelClick}>Clickme..</button>
       <button onClick={clickTwo}>Click2</button>
       <button onClick={() =>{
